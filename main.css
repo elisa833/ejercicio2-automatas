@@ -1,0 +1,15 @@
+body {
+    background: #FC5C7D;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #6A82FB, #FC5C7D);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #6A82FB, #FC5C7D); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+}
+
+.contenedor {
+    background-image: url("https://s3.envato.com/files/280848180/IMG_9463.jpg"); 
+    border-radius: 15px; /* Bordes redondeados */
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    backdrop-filter: blur(10px); /* Desenfoque del fondo */
+    -webkit-backdrop-filter: blur(10px); /* Soporte para Safari */
+    border: 3px solid rgba(14, 14, 14, 0.3);
+}
